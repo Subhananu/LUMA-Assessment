@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Luma Home Test Suite]" guice-stage="DEVELOPMENT" verbose="4">
+  <test thread-count="5" name="MenTopsPage Test(failed)" verbose="4">
+    <classes>
+      <class name="com.qa.luma.tests.MenTopsPageTest">
+        <methods>
+          <include name="loginPageSetup"/>
+          <include name="clickOnTops"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.luma.tests.MenTopsPageTest -->
+    </classes>
+  </test> <!-- MenTopsPage Test(failed) -->
+</suite> <!-- Failed suite [Luma Home Test Suite] -->

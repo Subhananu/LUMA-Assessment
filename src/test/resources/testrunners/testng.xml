@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Luma Home Test Suite" verbose="4">
+
+	<test name="HomePage Test">
+
+		<classes>
+			<class name="com.qa.luma.tests.HomePageTest" />
+		</classes>
+
+	</test>
+	
+	<test name="LoginPage Test">
+
+		<classes>
+			<class name="com.qa.luma.tests.LoginPageTest" />
+		</classes>
+
+	</test>
+	
+	<test name="MenTopsPage Test">
+
+		<classes>
+			<class name="com.qa.luma.tests.MenTopsPageTest" />
+		</classes>
+
+	</test>
+
+
+
+
+
+	
+</suite>
